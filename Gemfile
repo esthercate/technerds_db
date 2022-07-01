@@ -33,6 +33,8 @@ gem "rake", "~> 13.0"
 
 gem "pg"
 
+gem "puma"
+
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
