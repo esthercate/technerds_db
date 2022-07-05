@@ -35,6 +35,8 @@ gem "pg"
 
 gem "puma"
 
+gem "rerun"
+
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
@@ -42,11 +44,9 @@ gem "require_all", "~> 3.0"
 group :development do
   gem "pry", "~> 0.14.1"
 
-  
-
-  # Automatically reload when there are changes
-  # https://github.com/alexch/rerun
-  gem "rerun"
+# Automatically reload when there are changes
+# https://github.com/alexch/rerun
+  #gem "rerun"
 end
 
 # These gems will only be used when we are running tests
